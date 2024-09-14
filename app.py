@@ -10,9 +10,17 @@ import time
 import schedule
 from utils.request_logger import log_request, move_old_log  # Serviço de logging
 from email_service import process_email_attachments, check_invoices_email  # Serviço de e-mails
+from models import db  # Certifique-se de importar sua instância de SQLAlchemy
 
 app = Flask(__name__)
 app.config.from_object(Config)
+
+# Inicializar a instância do SQLAlchemy
+db.init_app(app)  # Inicialize o SQLAlchemy com o app
+
+# Criar tabelas automaticamente ao iniciar o servidor, caso ainda não existam
+with app.app_context():
+    db.create_all()
 
 # Registrar os blueprints para os dashboards e os CRUDs
 app.register_blueprint(person_bp, url_prefix='/api/person')
@@ -50,18 +58,16 @@ def download_backup_file(filename):
 
 # Função para agendar o serviço de leitura de e-mails
 def schedule_email_reader():
-    while True:
-        try:
-            # Agendar o serviço de processamento de anexos a cada 1 minuto para testar
-            schedule.every(1).minutes.do(process_email_attachments)
-
-            # Agendar o novo serviço de verificação de faturas a cada 1 minuto para testar
-            schedule.every(1).minutes.do(check_invoices_email)
-
-            schedule.run_pending()
-            time.sleep(1)
-        except Exception as e:
-            print(f"Erro no serviço de e-mails: {e}")
+    # O contexto da aplicação é usado uma vez, antes de iniciar os agendamentos
+    with app.app_context():
+        schedule.every(1).minutes.do(process_email_attachments)  # Agendar o serviço de anexos a cada 1 minuto
+        schedule.every(1).minutes.do(check_invoices_email)  # Agendar o serviço de faturas a cada 1 minuto
+        while True:
+            try:
+                schedule.run_pending()
+                time.sleep(1)
+            except Exception as e:
+                print(f"Erro no serviço de e-mails: {e}")
 
 # Função que inicializa a thread para rodar o serviço de e-mails em paralelo
 def start_email_service():
@@ -71,13 +77,15 @@ def start_email_service():
 
 # Função para agendar o serviço de movimentação dos logs diários
 def schedule_log_movement():
-    while True:
-        try:
-            schedule.every().day.at("23:59").do(move_old_log)  # Mover logs no final do dia
-            schedule.run_pending()
-            time.sleep(1)
-        except Exception as e:
-            print(f"Erro no serviço de movimentação de logs: {e}")
+    # O contexto da aplicação é usado uma vez, antes de iniciar os agendamentos
+    with app.app_context():
+        schedule.every().day.at("23:59").do(move_old_log)  # Mover logs no final do dia
+        while True:
+            try:
+                schedule.run_pending()
+                time.sleep(1)
+            except Exception as e:
+                print(f"Erro no serviço de movimentação de logs: {e}")
 
 # Função que inicializa a thread para rodar o serviço de logs em paralelo
 def start_log_service():

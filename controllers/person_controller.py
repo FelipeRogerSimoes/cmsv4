@@ -1,32 +1,42 @@
 from flask import Blueprint, request, jsonify
 from models import db, Person
+import logging
 
-person_bp = Blueprint('person_bp', __name__)
+person_bp = Blueprint('person', __name__)
 
 
-# 1. Criar uma nova pessoa (POST)
+# CREATE (POST)
 @person_bp.route('/', methods=['POST'])
 def create_person():
     data = request.get_json()
 
-    # Verificar se todos os campos necessários estão presentes
-    if not all(k in data for k in ('name', 'type', 'cpf_cnpj')):
-        return jsonify({'error': 'Nome, tipo e CPF/CNPJ são obrigatórios.'}), 400
-
-    # Verificar se CPF/CNPJ já existe
-    existing_person = Person.query.filter_by(cpf_cnpj=data['cpf_cnpj']).first()
-    if existing_person:
-        return jsonify({'error': 'Uma pessoa com este CPF/CNPJ já existe.'}), 400
-
-    # Criar nova pessoa
+    # Criar um novo objeto Person
     new_person = Person(
-        name=data['name'],
-        type=data['type'],
-        cpf_cnpj=data['cpf_cnpj']
+        name=data.get('name'),
+        type=data.get('type'),
+        cpf_cnpj=data.get('cpf_cnpj')
     )
 
+    logging.info(f"Novo objeto Person: {new_person}")
+
+    # Adicionar o novo objeto à sessão
     db.session.add(new_person)
-    db.session.commit()
+    logging.info("Objeto Person adicionado à sessão")
+
+    try:
+        # Commit para salvar no banco de dados
+        db.session.commit()
+        logging.info(f"Pessoa criada com sucesso com ID {new_person.id}")
+
+    except Exception as e:
+        db.session.rollback()  # Desfazer a transação em caso de erro
+        logging.error(f"Erro ao salvar a pessoa: {e}")
+        return jsonify({'error': str(e)}), 400
+
+    # Verificar se o ID foi gerado e se o objeto ainda está presente
+    if not new_person.id:
+        logging.error("Erro: o ID da pessoa não foi gerado após o commit")
+        return jsonify({'error': 'ID não gerado'}), 500
 
     return jsonify(new_person.to_dict()), 201
 

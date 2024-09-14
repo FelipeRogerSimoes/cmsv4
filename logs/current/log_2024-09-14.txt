@@ -1,0 +1,4275 @@
+Request ID: unknown
+Hora (Brasília): 2024-09-14 11:50:22
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 11:50:27
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 11:50:27
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 11:50:56
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:21:08
+Headers: Content-Type: application/json
+Content-Length: 85
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-4c146a3f476f37a78c983b0f8603789b-ed47ed7547ad089a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "Maria Silva",
+  "type": "Pessoa Física",
+  "cpf_cnpj": "12345678900"
+}
+
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:21:51
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-ff134af9dde68b009672156953930430-72db51aed2e3bbc7-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:22:02
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-cd1baaa718100a59e7035464b0c0d09f-aabd1b61b2dba5b3-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:22:03
+Headers: Content-Length: 0
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-cd1baaa718100a59e7035464b0c0d09f-635651d293e4934a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:22:44
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-f6ce8ffea9861b2f4d7d6824086d7dd9-bf29aae95f0de331-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:22:44
+Headers: Content-Length: 0
+X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-f6ce8ffea9861b2f4d7d6824086d7dd9-2d83be11e5f7a00c-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:24:35
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-efe812f8c4c898ab20295616e65ea605-bd6158666e9e61d3-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:24:35
+Headers: Content-Length: 0
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-efe812f8c4c898ab20295616e65ea605-65eeff859d043029-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:25:25
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-693a7f09eb473abcc0a2fc850b5c6441-d943720dfc29182f-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:25:25
+Headers: Content-Length: 0
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-693a7f09eb473abcc0a2fc850b5c6441-d2e11973bb7719f2-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:25:30
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-209e9b0d4736aea306038cc3c708dd0c-d5187b497d0ae054-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:25:30
+Headers: Content-Length: 0
+X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-209e9b0d4736aea306038cc3c708dd0c-c24447754e569d21-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:25:34
+Headers: Content-Type: application/json
+Content-Length: 129
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-14a7d06501110f9a7ebb56d64130027d-7e249b8c45d25d9b-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",  # ou "legal" para pessoa jurídica
+  "cpf_cnpj": "12345678900"  # CPF ou CNPJ
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:25:34
+Headers: Content-Length: 0
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-14a7d06501110f9a7ebb56d64130027d-0f4dd944f2e9d5ac-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:28:41
+Headers: Content-Type: application/json
+Content-Length: 111
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0de2d757-e47c-4e5a-8fd3-298ec9c455b9
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+          "name": "João Silva",
+          "type": "physical",
+          "cpf_cnpj": "12345678900"
+         }
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:29:04
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:29:06
+Headers: Content-Type: application/json
+Content-Length: 111
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 524e3ce8-cf3e-4c71-ae8c-70e6155b8f03
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+          "name": "João Silva",
+          "type": "physical",
+          "cpf_cnpj": "12345678900"
+         }
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:29:31
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:29:31
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:36:51
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:37:04
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:37:04
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:37:15
+Headers: Content-Type: application/json
+Content-Length: 111
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0f381c5c-f780-4bb7-9fb3-4214601f6705
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+          "name": "João Silva",
+          "type": "physical",
+          "cpf_cnpj": "12345678900"
+         }
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:42:20
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:42:20
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:42:36
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:42:39
+Headers: Content-Type: application/json
+Content-Length: 111
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a4322008-380b-4cda-825f-fa0d65928d59
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+          "name": "João Silva",
+          "type": "physical",
+          "cpf_cnpj": "12345678900"
+         }
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:45:27
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:45:27
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:52:23
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:52:26
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:52:26
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:52:27
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:52:31
+Headers: Content-Type: application/json
+Content-Length: 111
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6659d5d4-039d-4fc3-bcb9-93685d87f4a2
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+          "name": "João Silva",
+          "type": "physical",
+          "cpf_cnpj": "12345678900"
+         }
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:54:45
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:55:34
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:55:39
+Headers: Content-Type: application/json
+Content-Length: 111
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2198b435-069a-4d82-ba23-4ca8ec66dee4
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+          "name": "João Silva",
+          "type": "physical",
+          "cpf_cnpj": "12345678900"
+         }
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:58:35
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 12:58:36
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:01:39
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 67e3858f-52a2-48e7-ba13-4e43845ab5ed
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:01:47
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dd601387-c84b-43ac-9b27-b6f56749509e
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:04:14
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:04:41
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3050fe4b-c3c6-450a-adc8-bd3aaa97b279
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:05:01
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:05:14
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 60eab4b7-e215-431a-863a-b39fc5d3f757
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:06:30
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:06:42
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:06:48
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0f0c95cd-cb5b-466b-9cf5-3f2268db9831
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:08:29
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:08:45
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 297d301a-f937-4b0e-aaef-7d953d2bedcb
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:09:37
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:09:37
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:11:40
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:11:48
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b7465719-302b-43f7-8cdc-a415976d6537
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:13:39
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f997d026-4f02-4f0c-92fb-d71c8f512d2b
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:16:50
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:16:54
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4e0bd291-7c1f-400d-8da9-c5c99eac5e62
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:17:52
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2e34a6ff-6258-4e1d-b925-862e98f494f2
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:19:18
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:19:20
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 41f0abf3-a53a-45f5-9e95-356201914e68
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:20:44
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d8d2918d-4d16-4c1f-b8d1-0bace6f96743
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:21:12
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:21:25
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ce3684ca-030a-41c3-8d0e-30aa10a5839e
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:22:49
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:22:53
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a26fedfc-3a52-4207-be5e-40327a5520ed
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:23:14
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d7649ad4-c20c-4f1e-97fb-373a26a457e4
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:24:22
+Headers: Content-Type: application/json
+Content-Length: 80
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 58e524e9-c03f-4321-ad1f-3b8885ee2087
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "123456as34901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:25:45
+Headers: Content-Type: application/json
+Content-Length: 80
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f5ca3ef6-123b-40ac-9c3f-e79ebf3a71a8
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "Ryomen sukuna",
+  "type": "physical",
+  "cpf_cnpj": "123456a1231"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:30:18
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:30:34
+Headers: Content-Type: application/json
+Content-Length: 72
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e6e04fa-0950-4974-9dfc-e9dae2b7d210
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "toju",
+  "type": "physical",
+  "cpf_cnpj": "1234asdwe231"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:33:07
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 69aa016f-3d3d-4b2b-a0b4-465ed6b6d1a3
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Souza",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:34:25
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 4620d224-c754-43c9-971d-14118d03ab61
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:37:27
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0b4d2382-b043-423f-917a-e432a7ea84d9
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:38:20
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f04b4f3e-bf46-4e56-a08f-c2b6a2400623
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:38:26
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0e264ee6-5aca-460c-8eac-bb25b2cfe921
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:42:51
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:42:51
+Headers: X-Real-Ip: 177.126.10.176
+X-Forwarded-For: 177.126.10.176
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://cmsssv3.pythonanywhere.com/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:45:55
+Headers: Content-Type: application/json
+Content-Length: 400
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dc733835-8b0d-4c56-8101-02a2c0a357f9
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "description": "Caso de sinistro",
+  "entry_date": "2024-09-14",
+  "status": "Open",
+  "insurance_company_id": 1,
+  "rate2": true,
+  "fee_limit": 10000.00,
+  "legal_action": false,
+  "damage_estimate": 50000.00,
+  "insured_name": "João Silva",
+  "condition": "On time",
+  "auxiliary_adjuster": "Carlos Lima",
+  "lead_adjuster": "Ana Souza",
+  "operation_id": 1,
+  "internal_number": "INT-0001"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:55:18
+Headers: Content-Type: application/json
+Content-Length: 72
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 840c67e7-a77e-46c3-b0df-bd313b76ca9c
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "toju",
+  "type": "physical",
+  "cpf_cnpj": "1234asdwe231"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:55:56
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 13:56:51
+Headers: Content-Type: application/json
+Content-Length: 76
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: e383e19b-867c-46a2-afb4-d342a695dc9a
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "Ryoumen Sukuna",
+  "type": "physical",
+  "cpf_cnpj": "1234as"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:18:39
+Headers: Content-Type: application/json
+Content-Length: 76
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5ebc5ebc-e3ed-4cdc-909f-7e3f832bae8a
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "Ryoumen Sukuna",
+  "type": "physical",
+  "cpf_cnpj": "1234as"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:19:17
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:19:24
+Headers: Content-Type: application/json
+Content-Length: 77
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d8557bba-620e-4183-a8a5-80931025127e
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "Ryoumen Skuna",
+  "type": "physical",
+  "cpf_cnpj": "12asa23s"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:34:40
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6467d711-1b56-4c4c-a2bf-17df0b546e92
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Souza",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:34:47
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ab8b6a99-0935-4a6a-8e94-d8db50062113
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "João Souza",
+  "type": "physical",
+  "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:34:59
+Headers: Content-Type: application/json
+Content-Length: 77
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 825ab957-d92d-447c-9561-8177140ee83b
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "Ryoumen Skuna",
+  "type": "physical",
+  "cpf_cnpj": "12asa23s"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:38:37
+Headers: Content-Type: application/json
+Content-Length: 72
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9582783a-8db5-44a1-b753-54caa1d36f75
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "tio pedro",
+  "type": "physical",
+  "cpf_cnpj": "5648414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:40:13
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:40:35
+Headers: Content-Type: application/json
+Content-Length: 76
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7f3c20b7-0ecb-4a74-83e7-5666915761dd
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "marcelinho",
+  "type": "physical",
+  "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:40:42
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 82cfc8b7-11f1-48b2-82c1-e054f0b6566c
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:43:36
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7804f7ff-7d40-477b-9b28-dbdf2959410c
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:43:40
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3b5afd77-dbfb-4a1e-bb97-930da5c71c84
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:44:08
+Headers: Content-Type: application/json
+Content-Length: 76
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 16f9cfc8-a2b3-4e96-942b-2569d8672611
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "marcelinho",
+  "type": "physical",
+  "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:47:21
+Headers: X-Real-Ip: 54.237.241.184
+X-Forwarded-For: 54.237.241.184
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:47:37
+Headers: Content-Type: application/json
+Content-Length: 73
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ba2f6df1-04e5-46ce-9dae-471a3d29a4dd
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "batinho",
+  "type": "physical",
+  "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:47:56
+Headers: Content-Type: application/json
+Content-Length: 70
+X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2679286e-9174-428b-b22c-16c5fec69f3e
+Accept-Encoding: gzip, deflate, br
+
+
+Body: {
+  "name": "HDI",
+  "type": "Jurídica",
+  "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:48:08
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5f177ebe-8f7d-4180-bdec-1369f7d8c6a1
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:51:05
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-329037fa6df92a3ab8836bcfc22bdc2e-608c63aac524cde9-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:51:05
+Headers: Content-Length: 0
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-329037fa6df92a3ab8836bcfc22bdc2e-3b69d43f8d354cfb-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:51:34
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-6d79f06c744a6ea1e88ee1e3ab671e6f-d959316270cfc1e3-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:51:34
+Headers: Content-Length: 0
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-6d79f06c744a6ea1e88ee1e3ab671e6f-7c6306bf8252630a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:51:52
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-68b201fb8ba84ef37e07d93a26d421a6-b785084521d01ce5-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:51:53
+Headers: Content-Length: 0
+X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-68b201fb8ba84ef37e07d93a26d421a6-24fe368e7d007c25-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:52:05
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-def2ae83b81518a9885aaddd6e472abc-d0ddf3b23e6d210a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:52:05
+Headers: Content-Length: 0
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-def2ae83b81518a9885aaddd6e472abc-0065ca562ae37bac-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:52:35
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-b66a573485cecf52790c529545927f72-ad5816b4e938f448-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:52:35
+Headers: Content-Length: 0
+X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-b66a573485cecf52790c529545927f72-2de50bbf362e9c18-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:52:39
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-23f27924e2b8a9c38a7a7c96cc52e349-65cb3a13d01e9128-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:52:39
+Headers: Content-Length: 0
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-23f27924e2b8a9c38a7a7c96cc52e349-b7785285ddd6a2a5-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:53:05
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-0bb20a9225a45ba46dea728739a420e3-3a3f932199f5d785-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:53:05
+Headers: Content-Length: 0
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-0bb20a9225a45ba46dea728739a420e3-dda4bf23d2411712-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:53:22
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 3dbb5b2c-e32b-4a49-8c7c-9f900f071603
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:53:46
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-8c5940642efbf9c0b99948368daf6a35-834b22ceeffe8f4b-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:53:46
+Headers: Content-Length: 0
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-8c5940642efbf9c0b99948368daf6a35-3bd4a15f987fc11b-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 14:59:01
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-d70636b72e5672ee6b499724b8a3f1fb-090c3a03373262ce-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Jurídica",
+    "cpf_cnpj": "564234414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:01:45
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-084e7fe55d29908b228f14efc2367d7b-d5e8317d311add9c-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:02:02
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-342a6773668f27f41fbdee9aad57ffa8-b97754df05dd0afc-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:02:29
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 54.218.76.125
+X-Forwarded-For: 54.218.76.125
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-5c227614fc36ea913962813272ce496f-2d1f0501a52a5245-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:02:50
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-96a9bc11b1a58bd7a96e3460cf0497b3-3ad342330d3877ad-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:03:12
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-8ae3d6e8120eeca5a833ea612ccc292d-cf50a9142174ee73-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:04:19
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 35.90.159.127
+X-Forwarded-For: 35.90.159.127
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-9d49de750225d9f0a85e3c6eb7ed1e3b-677154c1be429af0-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:05:53
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 54.218.76.125
+X-Forwarded-For: 54.218.76.125
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-ada2cdae0978bd51b7655e27040bdb74-506bdf43a202b270-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:06:17
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-21e63bc14f03e5ca4484b2541c3b782f-16e22fc40948d0ac-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:06:43
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-47bcd8ba079482a8b67f39ec3ac01b16-6e51d4eda476f340-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:07:11
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-19b5509a73bfe7876cb1280d3ae99c4b-d7d2a1a2ee0cf835-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:07:23
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 31716698-fb70-4f24-820d-ea98bdc19b58
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:07:39
+Headers: Content-Type: application/json
+Content-Length: 84
+X-Real-Ip: 35.90.159.127
+X-Forwarded-For: 35.90.159.127
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-193900ca14262870533744bc14626aa6-4bb78683705424ff-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "12345678901"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:07:48
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b3335384-da8f-42df-9cce-b260973ac123
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:09:37
+Headers: Content-Type: application/json
+Content-Length: 80
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-c7deaf5229ec27f94e141f4086da53c2-1d81ccdec45099ad-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "1234531"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:09:44
+Headers: Content-Type: application/json
+Content-Length: 80
+X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-7db1cf6538b68b9aac2413d2478dc9a6-38953f7e2aa65e0b-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "1234531"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:09:53
+Headers: Content-Type: application/json
+Content-Length: 80
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-b824bd4701b57e3e5e1419cfcd0f5525-e8cc3d7aa2e5dc6e-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: {
+    "name": "João Souza",
+    "type": "physical",
+    "cpf_cnpj": "1234531"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:10:27
+Headers: X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-85905c89bb771a82ab8e372a1e62221d-9b3fdac6827e77c9-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:11:21
+Headers: X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-9bf01c665fd60d903de6e9f3648e720d-4ca932a85cdebbb6-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:11:51
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-fa9dbe352cbba93aa72c82e21af3cf22-c1fab58c43fc97c9-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:11:51
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-fa9dbe352cbba93aa72c82e21af3cf22-ea55ffb688bda3b1-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:12:27
+Headers: X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-72f6ac964a43313e628702b46176ee93-89047a1fdcec42f4-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:12:27
+Headers: X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-72f6ac964a43313e628702b46176ee93-a419edc99bd135ab-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:54:01
+Headers: Content-Type: application/json
+Content-Length: 87
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-cc44934b14bb76dbfa366e45869d0cd0-be84b8fdd26a0732-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Felipe Simoes 234",
+  "type": "Pessoa física",
+  "cpf_cnpj": "65657465"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:55:55
+Headers: X-Real-Ip: 54.218.76.125
+X-Forwarded-For: 54.218.76.125
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-2823b607f1e0006c450f2f3956f2abc4-26bf3931d98ac4fa-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:55:55
+Headers: X-Real-Ip: 54.218.76.125
+X-Forwarded-For: 54.218.76.125
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-2823b607f1e0006c450f2f3956f2abc4-6025604435cf6dd8-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:56:18
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-194223fcc61ec89572db2d5bb6cdc804-5aee84397ec85422-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:56:18
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-194223fcc61ec89572db2d5bb6cdc804-2271281b0819b506-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:56:34
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-74d40958df43f866ff6092a9c9ce6986-0868ef89d27193eb-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 15:56:34
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-74d40958df43f866ff6092a9c9ce6986-2637399052c8f624-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:09:01
+Headers: X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-0bd35aa8d9868ad72b739ff281ffe4e6-3df5ef5be876d66e-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:09:01
+Headers: X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-0bd35aa8d9868ad72b739ff281ffe4e6-196522099f2ed399-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:18:52
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-9495432ab537ce3dd2a763e687f119c0-0bcf0e1050a05a68-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:18:52
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-9495432ab537ce3dd2a763e687f119c0-b21bd575511bbba2-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:19:29
+Headers: X-Real-Ip: 52.33.0.28
+X-Forwarded-For: 52.33.0.28
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-184875fa2c4afb7e477cdee6a0de6797-30294451c5d945fc-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:19:29
+Headers: X-Real-Ip: 52.33.0.28
+X-Forwarded-For: 52.33.0.28
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-184875fa2c4afb7e477cdee6a0de6797-35e604e3d7431ccc-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:19:42
+Headers: Content-Type: application/json
+Content-Length: 94
+X-Real-Ip: 34.222.169.48
+X-Forwarded-For: 34.222.169.48
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-85cff0a4eadcf5dd54f13077f00bee9c-ef1b5e020ac8bf22-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726340371030x894321653702441900,bubblegroup.workflow.action.id=1726340393444x103380682254343060,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+    "name": "Yasmin Amaral",
+    "type": "Pessoa física",
+    "cpf_cnpj": "1234567890122"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:19:46
+Headers: Content-Type: application/json
+Content-Length: 94
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-73f375d96fc3edcf4ad604ad142d4c62-4eddd6f9279e457e-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726340371030x894321653702441900,bubblegroup.workflow.action.id=1726340393444x103380682254343060,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+    "name": "Yasmin Amaral",
+    "type": "Pessoa física",
+    "cpf_cnpj": "1234567890122"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:19:54
+Headers: X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-3e00d7f2371a9f5e9b374324b7070636-0d3d8ee1984f22c0-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:19:54
+Headers: X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-3e00d7f2371a9f5e9b374324b7070636-f4ac543b2fee41eb-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:41:16
+Headers: Content-Type: application/json
+Content-Length: 93
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-13b2c714e9d8b3bae8cfb8257c839cfb-8dbd01ee2a535ba3-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726340371030x894321653702441900,bubblegroup.workflow.action.id=1726340393444x103380682254343060,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+    "name": "João da silva",
+    "type": "Pessoa física",
+    "cpf_cnpj": "12345312345"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:41:37
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-d8f5de326ba774d51458914e27c1b6b0-3effcb718badf57b-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:41:37
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-d8f5de326ba774d51458914e27c1b6b0-4c42bb530e16b096-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:14
+Headers: X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-318394da1291e607b9048b343ade3322-9389f6321cd77f81-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:14
+Headers: X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-318394da1291e607b9048b343ade3322-392fc4b3b24a2b66-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:20
+Headers: Content-Type: application/json
+Content-Length: 85
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-658a0ff530901a046c587e721b52088f-6d763703613fbcaf-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726340371030x894321653702441900,bubblegroup.workflow.action.id=1726340393444x103380682254343060,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+    "name": "batinho",
+    "type": "Pessoa física",
+    "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:32
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-95fadc79d2b96d47ec646356125ebe59-ef43ff773d5a61b1-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:32
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-95fadc79d2b96d47ec646356125ebe59-29ddb6843fcafe15-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:36
+Headers: X-Real-Ip: 35.90.159.127
+X-Forwarded-For: 35.90.159.127
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-d6f8054606bd5bf1b8f0f2d14bde9feb-97bc85deb21101c3-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:37
+Headers: X-Real-Ip: 35.90.159.127
+X-Forwarded-For: 35.90.159.127
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-d6f8054606bd5bf1b8f0f2d14bde9feb-3c6027a442998859-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:43:45
+Headers: Content-Type: application/json
+Content-Length: 88
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-208da0f4af42dbcff5fbd4f4a1c051f6-d3d2a0fd31b23191-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726340371030x894321653702441900,bubblegroup.workflow.action.id=1726340393444x103380682254343060,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+    "name": "marcelinho",
+    "type": "Pessoa física",
+    "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:14
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-ebb2726d8bcc9e3d0213ccc4b1ebf870-84864643937eb838-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:14
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-ebb2726d8bcc9e3d0213ccc4b1ebf870-7368a713dd3ed2bc-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:19
+Headers: X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-7e644644328bd7ce96f699b417b50d67-5cd66ecbd9edad87-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:22
+Headers: X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-de7d975dc00cc3616aa934e998722e65-848e703f8dbda8d2-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:22
+Headers: X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-de7d975dc00cc3616aa934e998722e65-8254ad11e934642e-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:26
+Headers: X-Real-Ip: 34.222.169.48
+X-Forwarded-For: 34.222.169.48
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-ad741e36eec8370b9bc8e7b001c114e9-848b47dfca700bb6-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:28
+Headers: X-Real-Ip: 34.222.169.48
+X-Forwarded-For: 34.222.169.48
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-7d4c6ab7edf65641c09830fa6c6041fb-87506e3956eb0c3f-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:29
+Headers: X-Real-Ip: 34.222.169.48
+X-Forwarded-For: 34.222.169.48
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-7d4c6ab7edf65641c09830fa6c6041fb-0f82361f2f482b61-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:41
+Headers: Content-Type: application/json
+Content-Length: 82
+X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-3b2301113ef78e344896c49a897a49fe-aa1a0830884e5e9b-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726340371030x894321653702441900,bubblegroup.workflow.action.id=1726340393444x103380682254343060,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+    "name": "HDI2",
+    "type": "Pessoa física",
+    "cpf_cnpj": "5648423414"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:45
+Headers: X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-e2352763de0fedddb7bfa917651c3c19-0e73a2c190dd6a88-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:50:45
+Headers: X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-e2352763de0fedddb7bfa917651c3c19-98187e0c2b30f0b1-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:51:17
+Headers: X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-529cce4aba6e07048fc9aacee55d09a1-395730ccbe36711b-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:51:31
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-86cf73690d898909abbe9e41ddaceef7-0d134e85911d80d3-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:51:34
+Headers: X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-12a3992c8699676e9949fc1a4eff4aa2-3c10c7c68c16443c-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:52:23
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-16980b3cd42ceb737a277f7199970e6f-2be7d643e6ac9e5c-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:52:23
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-16980b3cd42ceb737a277f7199970e6f-9f13e6227c38f475-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:52:33
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-b9ff27dba535eacbc33cf9bf25032286-9684169ade7523a0-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:54:20
+Headers: X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-12e71e53c0b0b8c3225c39e0af6a709b-c8021f1ef21f1a6f-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:54:20
+Headers: X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-12e71e53c0b0b8c3225c39e0af6a709b-4320f764617ef500-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:54:28
+Headers: X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-4a5d3679021ed8a552244234f0087540-e6f4f798f42971ac-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:54:43
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-a2a00f988d13a1c6cd9669c4480cbc11-69b4e2cef9294269-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:54:43
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-a2a00f988d13a1c6cd9669c4480cbc11-d7b0c2ce07b5e0e7-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:54:58
+Headers: X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-991d4c6ea503b5c26f4848a606b8b199-c7863cb970e51fa3-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:08
+Headers: X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-9b2122052275f6f51b39b144a3789134-c582ccde2989fed9-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:08
+Headers: X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-9b2122052275f6f51b39b144a3789134-9c9c54c57429735f-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:21
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-c32bb511ba7d01135c2ec24a12c5e5e9-f3c1cea8ddb80de4-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:21
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-c32bb511ba7d01135c2ec24a12c5e5e9-db89fd9b018927b6-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:36
+Headers: X-Real-Ip: 54.86.50.139
+X-Forwarded-For: 54.86.50.139
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1c824feb-8829-45d2-bd7d-acc756f878b7
+Accept-Encoding: gzip, deflate, br
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:43
+Headers: X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-631bb15955775b297e4838905f38a8e8-9d5f4621201baf9a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:55:43
+Headers: X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-631bb15955775b297e4838905f38a8e8-47d2276502c83cd4-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:00
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-6647e39bbd6d64211484499fcbd85ac4-be3a9a6bc4b32e6c-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=bubble.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:08
+Headers: X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-816733cbc2f49576ef689f593079de3b-67b47dc96a83fbdb-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:08
+Headers: X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-816733cbc2f49576ef689f593079de3b-bd80bd93b2783fda-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:13
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-cdf2fce2c282751fb080657f30272284-7930f933a399cdb3-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:16
+Headers: X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-a0e5913a24c1f3c771c643eb4f782a34-bccd392c8ec246bf-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:17
+Headers: X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-a0e5913a24c1f3c771c643eb4f782a34-c6da0e29bd13b0ee-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:46
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 18.237.183.114
+X-Forwarded-For: 18.237.183.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-5115d9d03c1c9fb244afcc53e572af3b-f5a8d123a4ea8e72-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:48
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-83c71175a43b8571ac66d91760c968d1-cf20009be5c9dffc-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:49
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 54.218.76.125
+X-Forwarded-For: 54.218.76.125
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-2e67d2fa39679183584ec09eec81e91b-27322588ef9df3ae-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:50
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-b60e847afba736d5bf3d7de5ea686b5d-a8bbe6284b21d3e3-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:53
+Headers: X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-328b6147bd6b83a31b5b27299586b667-57ddda423d66b52f-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:56:53
+Headers: X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-328b6147bd6b83a31b5b27299586b667-1b69a931d50af7af-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:04
+Headers: Content-Type: application/json
+Content-Length: 94
+X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-93025acb50dea3d6df654e39a211445b-938fe8da565d5b16-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Yasmin Reis do Amaral",
+  "type": "Pessoa física",
+  "cpf_cnpj": "12314243123"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:20
+Headers: Content-Type: application/json
+Content-Length: 88
+X-Real-Ip: 35.89.249.21
+X-Forwarded-For: 35.89.249.21
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-53a6cd01bb8dc95bab44ce86fcf4dbd8-89a49b2e185f7a48-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Felipe Roger Simoes",
+  "type": "Pessoa física",
+  "cpf_cnpj": "1231213"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:27
+Headers: Content-Type: application/json
+Content-Length: 75
+X-Real-Ip: 34.222.83.3
+X-Forwarded-For: 34.222.83.3
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-2de684fbd40d911c0cec11ea7820f541-6dff970bb7be8167-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "HDI",
+  "type": "Pessoa física",
+  "cpf_cnpj": "1121231213"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:34
+Headers: Content-Type: application/json
+Content-Length: 78
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-87fc24db53e125801f3fc996cb6ad30f-61635f8370fec073-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Zurich",
+  "type": "Pessoa física",
+  "cpf_cnpj": "1121223213"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:40
+Headers: Content-Type: application/json
+Content-Length: 73
+X-Real-Ip: 52.35.200.161
+X-Forwarded-For: 52.35.200.161
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-b8bc84742d3de3ba357fcb41b5472d5a-fb7412cd754e2566-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Ezze",
+  "type": "Pessoa física",
+  "cpf_cnpj": "1122311"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:44
+Headers: X-Real-Ip: 34.222.169.48
+X-Forwarded-For: 34.222.169.48
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-00d1334eb281ab848187a0674195e8e5-d3a69a848dae5004-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:44
+Headers: X-Real-Ip: 34.222.169.48
+X-Forwarded-For: 34.222.169.48
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-00d1334eb281ab848187a0674195e8e5-b1f2b4dd8cdaa866-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:57:58
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 52.33.0.28
+X-Forwarded-For: 52.33.0.28
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-6cf445cec71d78a4457eb1dd805ffe04-b09247c4d895200e-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:38
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-6595b3fe86c85390768cc12bbe9d829d-343afed868acce81-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:38
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-6595b3fe86c85390768cc12bbe9d829d-39d01b50b431e38a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:40
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 52.36.186.147
+X-Forwarded-For: 52.36.186.147
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-df29c08ceb0fd7f82b53143ee5f9364b-2adc813265dd44f7-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:43
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 34.222.48.34
+X-Forwarded-For: 34.222.48.34
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-ef01eae74af31849b7c52a24c2c6187f-a5d48e439b582889-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:45
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-f5b1966bc9b0aac4f72c6396e47a5fb5-52757c1ad14ccc82-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:45
+Headers: Content-Type: application/json
+Content-Length: 0
+X-Real-Ip: 54.218.76.125
+X-Forwarded-For: 54.218.76.125
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-4f9998d35546f85bd8197b858fcc0005-f7fdc6feafef84c8-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726343107831x696198822430667000,bubblegroup.workflow.action.id=1726343303313x712007229558466000,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:48
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-5be6c3b7e58168656e51d9a04f4c6789-ed026fbc1245eb79-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 16:58:48
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-5be6c3b7e58168656e51d9a04f4c6789-aa354d74458ee31d-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:02:14
+Headers: Content-Type: application/json
+Content-Length: 81
+X-Real-Ip: 18.237.85.65
+X-Forwarded-For: 18.237.85.65
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-585e40f7f9ab30cc7aff73b616ee572b-af5d20dd55c41e22-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Felipe Simoes",
+  "type": "Pessoa física",
+  "cpf_cnpj": "q32w42"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:02:33
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-fcf23d394c4ec28934dea3084c5c4069-57f0807d81ee0af0-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:02:33
+Headers: X-Real-Ip: 52.26.54.114
+X-Forwarded-For: 52.26.54.114
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-fcf23d394c4ec28934dea3084c5c4069-d513c8fa9d70830a-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:02:49
+Headers: Content-Type: application/json
+Content-Length: 92
+X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-892dfb3f35bcd98755ea81d2d906d972-3b1b77c107b7bd47-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Yasmin Reis do amaral",
+  "type": "Pessoa física",
+  "cpf_cnpj": "123=-1230"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:03:00
+Headers: Content-Type: application/json
+Content-Length: 74
+X-Real-Ip: 54.70.168.165
+X-Forwarded-For: 54.70.168.165
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-f528607d03eaaf24897384ff43297593-1f7f8e81624ae752-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Zurich",
+  "type": "Pessoa física",
+  "cpf_cnpj": "435632"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:03:06
+Headers: Content-Type: application/json
+Content-Length: 75
+X-Real-Ip: 35.90.159.127
+X-Forwarded-For: 35.90.159.127
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-8a2795a050773621c33d7232ce4254ba-b8617647ae1a15cd-01
+Baggage: bubblegroup.task_name=schedule_api_event,bubblegroup.workflow.appname=claimstrackcmsv3,bubblegroup.workflow.app_version=test,bubblegroup.workflow.situation=scheduled_action,bubblegroup.workflow.id=1726338726045x714774581611168600,bubblegroup.workflow.action.id=1726338895899x254728734576133100,bubblegroup.workflow.action.type=ChangeThing
+
+
+Body: {
+  "name": "Ezze",
+  "type": "Pessoa física",
+  "cpf_cnpj": "435632234"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:03:09
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-3c1d9f3c305eda51a631c954249ccb65-edca6125dd74da3f-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:03:09
+Headers: X-Real-Ip: 54.244.230.240
+X-Forwarded-For: 54.244.230.240
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-3c1d9f3c305eda51a631c954249ccb65-9fb4a9278f85ef57-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:04:46
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-033804e1521b64682fba68fd6753c035-e0207542e3187628-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-14 17:04:46
+Headers: X-Real-Ip: 54.203.199.107
+X-Forwarded-For: 54.203.199.107
+Host: cmsssv3.pythonanywhere.com
+Connection: upgrade
+User-Agent: Bubble
+X-Bubble-Depth: 1
+Accept-Encoding: gzip, deflate
+Traceparent: 00-033804e1521b64682fba68fd6753c035-fd16779cc9188e36-01
+Baggage: bubblegroup.client.version=824748ebdf9078380874693496e0e7457e7b3924,bubblegroup.client.commit_timestamp=1726253699000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
+Referer: https://cmsssv3.pythonanywhere.com/api/person
+
+
+Body: 
+==================================================
