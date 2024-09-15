@@ -3,8 +3,24 @@ from file_management import list_files
 from config import Config
 from controllers.person_controller import person_bp
 from controllers.cases_controller import cases_bp
+from controllers.routine_controller import routine_bp
 from dashboards.timesheets import timesheets_bp
 from dashboards.casos import casos_bp
+from controllers.task_controller import task_bp
+from controllers.expense_controller import expense_bp
+from controllers.document_controller import document_bp
+from controllers.event_controller import event_bp
+from controllers.action_controller import action_bp
+from controllers.parameter_controller import parameter_bp
+from controllers.validation_controller import validation_bp
+from controllers.field_controller import field_bp
+from controllers.insurance_company_controller import insurance_company_bp
+from controllers.system_user_controller import system_user_bp
+from controllers.operations_controller import operations_bp
+from controllers.rate_controller import rate_bp
+from controllers.timesheet_controller import timesheet_bp
+
+
 from threading import Thread
 import time
 import schedule
@@ -27,6 +43,20 @@ app.register_blueprint(person_bp, url_prefix='/api/person')
 app.register_blueprint(cases_bp, url_prefix='/api/cases')
 app.register_blueprint(timesheets_bp, url_prefix='/dashboard/timesheets')
 app.register_blueprint(casos_bp, url_prefix='/dashboard/casos')
+app.register_blueprint(routine_bp, url_prefix='/api/routine')
+app.register_blueprint(task_bp, url_prefix='/api/task')
+app.register_blueprint(expense_bp, url_prefix='/api/expense')
+app.register_blueprint(document_bp, url_prefix='/api/document')
+app.register_blueprint(event_bp, url_prefix='/api/event')
+app.register_blueprint(action_bp, url_prefix='/api/action')
+app.register_blueprint(parameter_bp, url_prefix='/api/parameter')
+app.register_blueprint(validation_bp, url_prefix='/api/validation')
+app.register_blueprint(field_bp, url_prefix='/api/field')
+app.register_blueprint(insurance_company_bp, url_prefix='/api/insurance_company')
+app.register_blueprint(system_user_bp, url_prefix='/api/system_user')
+app.register_blueprint(operations_bp, url_prefix='/api/operations')
+app.register_blueprint(rate_bp, url_prefix='/api/rate')
+app.register_blueprint(timesheet_bp, url_prefix='/api/timesheet')
 
 # Middleware para interceptar requisições e registrar logs
 @app.before_request

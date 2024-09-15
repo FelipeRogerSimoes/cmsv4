@@ -29,10 +29,10 @@ def download_timesheet_excel():
     # Gerar o arquivo Excel
     wb = Workbook()
     ws = wb.active
-    ws.title = "Timesheet"
+    ws.title = "Timesheet atualizado via git"
 
     # Adicionar cabeçalhos e dados
-    ws.append(["ID", "Descrição", "Horas Trabalhadas"])
+    ws.append(["ID", "Descrição", "Horas Trabalhadas revisadas"])
     timesheets_data = [
         {'id': 1, 'description': 'Análise de sistema', 'hours': 8},
         {'id': 2, 'description': 'Reunião com cliente', 'hours': 2},

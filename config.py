@@ -1,7 +1,11 @@
 import os
 
 class Config:
-    BASE_DIR = '/home/cmsssv3/cmsv4'
+    # Detecta automaticamente o diretório base, seja local ou no PythonAnywhere
+    if os.path.exists('/home/cmsssv3'):
+        BASE_DIR = '/home/cmsssv3/cmsv4'  # Caminho do PythonAnywhere
+    else:
+        BASE_DIR = os.path.abspath(os.path.dirname(__file__))  # Caminho local (Pasta do projeto)
 
     # Diretórios para downloads e backups
     DOWNLOAD_FOLDER = os.path.join(BASE_DIR, 'downloads/current')

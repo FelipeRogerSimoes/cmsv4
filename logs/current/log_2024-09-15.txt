@@ -1,0 +1,1536 @@
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:21:47
+Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:21:47
+Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1:5000/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:21:47
+Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Gpc: 1
+Accept-Language: pt-BR,pt
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:5000/dashboard/timesheets/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:35:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: e2a1b63f-d60d-43df-8a61-ea0378f72b2e
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:37:51
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 27e4b4a6-6514-4dba-aa5e-4ec0fc32dc91
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:39:13
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: bf47a90d-52ea-4cf4-833c-6f58a25ff863
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 07:40:33
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 16c7208a-727f-4b67-a814-860c2053ad23
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:09:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 1d733511-0c60-4404-9362-34625acf2a3f
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:11:33
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 42113e37-e5d7-49a8-9f7f-200a1d93c827
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:17:00
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 0f3a260d-ba5c-4c3a-8a2c-ea46b5954200
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 97
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901",
+  "role": "admin"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:17:02
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: b0f075cd-bdda-49a6-963b-a9bc13a56b6c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:17:05
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f998ee6c-344e-450c-9f22-4b1464eddcf4
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:17:16
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 674f38ce-0831-49e7-8c5a-1be4084c5b9b
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:17:36
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 465ff184-b447-48e0-b900-0e6f9ca4b8b7
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 95
+
+
+Body: {
+  "name": "Marcelo d2",
+  "type": "physical",
+  "cpf_cnpj": "123gdre8901",
+  "role": "user"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 08:17:47
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 19e983fb-2122-47f6-be0d-040de457fb28
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:48:23
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 0a58f6d0-28e4-418e-b7a6-4a286695cfb1
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 22
+
+
+Body: {
+    "person_id": 1
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:48:37
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 0e3265e3-8a33-4597-9210-b04894735f9c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:48:41
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: ee58a463-663c-4dbe-80c9-726569ab6ebf
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:48:45
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 12ad0981-4daa-43b4-b084-87770c2d44ad
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 97
+
+
+Body: {
+  "name": "João Silva",
+  "type": "physical",
+  "cpf_cnpj": "12345678901",
+  "role": "admin"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:49:01
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6986e102-249d-4d67-b649-5ee54e82189a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 89
+
+
+Body: {
+  "name": "hdi",
+  "type": "physical",
+  "cpf_cnpj": "12345678901",
+  "role": "admin"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:49:06
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: b682fca9-856f-494d-ae89-4a4866bf1fbf
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:59:03
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 76cfef9a-9e04-4e59-a6ae-4c6ce2665465
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 215
+
+
+Body: {
+    "name": "José Santos",
+    "type": "physical",
+    "cpf_cnpj": "12345678900",
+    "email": "jose.santos@example.com",
+    "whatsapp": "999999999",
+    "role": "manager",
+    "address": "Rua das Flores, 123"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:59:11
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 44c19b2e-7f55-4474-b784-10effac90dc3
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 10:59:14
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: d12e06da-b811-4e88-80fe-59e287d5330f
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:02:16
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: d3b1d4e3-6b5e-4a6d-b414-317c5ab0ea43
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 219
+
+
+Body: {
+    "name": "Maria da silva",
+    "type": "physical",
+    "cpf_cnpj": "123456ss78900",
+    "email": "jose.santos@example.com",
+    "whatsapp": "999999999",
+    "role": "manager",
+    "address": "Rua das Flores, 123"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:02:22
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f8c80776-fe58-400a-aa4d-b949a5c71339
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:02:28
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 557e4d53-ce50-4c8b-87a3-4317be085357
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:02:48
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 72dfce85-ad53-4f31-9483-72ff9cd624ce
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 217
+
+
+Body: {
+    "name": "Ryomen Sukinho",
+    "type": "legal",
+    "cpf_cnpj": "987654312jhf",
+    "email": "jose.almeida@example.com",
+    "whatsapp": "888888888",
+    "role": "admin",
+    "address": "Avenida Principal, 456"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:02:53
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: d79bf514-82e4-42c3-9e22-dc872e9a4bf6
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:05:52
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 9d9b3628-a979-4c18-95d5-3c5dea69531e
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 22
+
+
+Body: {
+    "person_id": 1
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:05:59
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: b127ee0c-9e5c-4c9a-aa1a-f37cb4c3d6d2
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:06:32
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 4a9938c9-190e-4d26-a7dd-396d33fedaa8
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 197
+
+
+Body: {
+    "name": "HDI",
+    "type": "Juridica",
+    "cpf_cnpj": "123456s11120",
+    "email": "hdi@example.com",
+    "whatsapp": "999999999",
+    "role": "manager",
+    "address": "xique xique bahia"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:06:38
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 9b607f54-8019-43af-b4e1-4bef0db85820
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 22
+
+
+Body: {
+    "person_id": 3
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:09:40
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: cb64bbb0-cd1d-4439-acf6-545468362434
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:10:06
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 2deb3814-e56f-4c08-a9b2-acec83c6f745
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 194
+
+
+Body: {
+    "name": "Zurich",
+    "type": "Juridica",
+    "cpf_cnpj": "123456s11120",
+    "email": "zurich@example.com",
+    "whatsapp": "999999999",
+    "role": "manager",
+    "address": "Paulista"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:10:09
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f36ca220-62b0-426d-9dfa-80e178488fe2
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:10:20
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6875dc2c-de7e-4d84-b877-e2bb79f9369b
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 22
+
+
+Body: {
+    "person_id": 4
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:10:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 355ce9da-a966-4564-b9bd-8ebfebb2e9f0
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:12:39
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 72e74465-1ae6-426c-88f2-122a51e0009c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 190
+
+
+Body: {
+    "name": "Ezze",
+    "type": "Juridica",
+    "cpf_cnpj": "123456s1111",
+    "email": "zurich@example.com",
+    "whatsapp": "999999999",
+    "role": "manager",
+    "address": "Berrini"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:12:49
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 1f636fda-2972-461c-b2e8-e11306c2c848
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 22
+
+
+Body: {
+    "person_id": 5
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:12:56
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 702c32d2-5d11-401c-9356-e3abfd464b5a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:13:01
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 437b20c0-d1f1-4e25-bf7d-36df136536f2
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:32:32
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: d2c53962-f221-4b8f-86e2-c5d8edd81295
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 243
+
+
+Body: {
+    "person_id": 1,
+    "manager": 2,
+    "goal_type": "Team Lead",
+    "job_title": "Software Engineer",
+    "level": "Senior",
+    "collaborator_type": "Full-time",
+    "user_type": "Admin",
+    "username": "john.doe",
+    "active": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:34:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 63899099-8be5-41ad-b46a-6e3e37ec0ee1
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:34:44
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f5ebb0aa-3d72-4350-8ac5-3f53d5834cc2
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 240
+
+
+Body: {
+  "person_id": 2,
+  "manager": 2,
+  "goal_type": "Desenvolvimento",
+  "job_title": "Engenheiro de Software",
+  "level": "Sênior",
+  "collaborator_type": "Contratado",
+  "user_type": "Admin",
+  "username": "jose.silva",
+  "active": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:37:07
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 061d581c-4254-445b-ae25-c31f62c89ecc
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 240
+
+
+Body: {
+  "person_id": 2,
+  "manager": 2,
+  "goal_type": "Desenvolvimento",
+  "job_title": "Engenheiro de Software",
+  "level": "Sênior",
+  "collaborator_type": "Contratado",
+  "user_type": "Admin",
+  "username": "jose.silva",
+  "active": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:37:48
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 315b438b-9587-4ca0-9ff2-805f6ed581bb
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 240
+
+
+Body: {
+  "person_id": 2,
+  "manager": 2,
+  "goal_type": "Desenvolvimento",
+  "job_title": "Engenheiro de Software",
+  "level": "Sênior",
+  "collaborator_type": "Contratado",
+  "user_type": "Admin",
+  "username": "jose.silva",
+  "active": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:37:48
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 315b438b-9587-4ca0-9ff2-805f6ed581bb
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 240
+Referer: http://127.0.0.1:5000/api/system_user
+Host: 127.0.0.1:5000
+
+
+Body: {
+  "person_id": 2,
+  "manager": 2,
+  "goal_type": "Desenvolvimento",
+  "job_title": "Engenheiro de Software",
+  "level": "Sênior",
+  "collaborator_type": "Contratado",
+  "user_type": "Admin",
+  "username": "jose.silva",
+  "active": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:38:51
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: a14fd76b-7a00-40ef-acd5-19b6ddf0b901
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:38:51
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: a14fd76b-7a00-40ef-acd5-19b6ddf0b901
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://127.0.0.1:5000/api/system_user
+Host: 127.0.0.1:5000
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:39:09
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6a4e47d8-42ac-4fca-ad48-5bb66f2de1d5
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:39:37
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f43062a4-d65c-402a-885b-10fe01ee7e32
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 233
+
+
+Body: {
+  "person_id": 3,
+  "manager": 2,
+  "goal_type": "Regulador",
+  "job_title": "Desenvolvedor Sênior",
+  "level": "Sênior",
+  "collaborator_type": "Interno",
+  "user_type": "Admin",
+  "username": "maria.santos",
+  "active": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:44:46
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: ca8b0474-3c24-4e49-a098-4dfa76626ecd
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 96
+
+
+Body: {
+  "name": "Operação A",
+  "responsible": 1,
+  "group_name": "Grupo Alpha",
+  "director": 2
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:45:32
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 74c080fa-19e8-4fc7-9146-844bda6bcb67
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 106
+
+
+Body: {
+  "name": "Operação A Atualizada",
+  "responsible": 1,
+  "group_name": "Grupo Beta",
+  "director": 2
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:55:48
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 93df21ea-db15-4c83-b59f-d569242151fa
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 892
+
+
+Body: {
+  "description": "Caso 1",
+  "judicial_action": true,
+  "policy_number": "123456",
+  "reported_to_insurer": true,
+  "case_name": "Incidente 1",
+  "case_number": "C-001",
+  "condition": "On time",
+  "broker": "Corretora XYZ",
+  "entry_date": "2024-09-14",
+  "loss_date": "2024-09-10",
+  "notification_date": "2024-09-12",
+  "fee_estimate": 1000.00,
+  "damage_estimate": 5000.00,
+  "salvage_estimate": 1500.00,
+  "excluded": false,
+  "fee_limit": 2000.00,
+  "incident_location": "Rua ABC, 123",
+  "operation_id": 1,
+  "rate_2": false,
+  "insurer_reference": "REF-12345",
+  "lead_adjuster": "Carlos Silva",
+  "auxiliary_adjuster": "João Pereira",
+  "reserve": 3000.00,
+  "salvage": true,
+  "search": "busca",
+  "insured_name": "Empresa XYZ",
+  "insurer_id": 1,
+  "status": "Aberto",
+  "temporal": false,
+  "billing_type": "Fixed",
+  "fee_limit_value": 2500.00,
+  "physical_inspection": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:55:48
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 93df21ea-db15-4c83-b59f-d569242151fa
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 892
+Referer: http://127.0.0.1:5000/api/cases
+Host: 127.0.0.1:5000
+
+
+Body: {
+  "description": "Caso 1",
+  "judicial_action": true,
+  "policy_number": "123456",
+  "reported_to_insurer": true,
+  "case_name": "Incidente 1",
+  "case_number": "C-001",
+  "condition": "On time",
+  "broker": "Corretora XYZ",
+  "entry_date": "2024-09-14",
+  "loss_date": "2024-09-10",
+  "notification_date": "2024-09-12",
+  "fee_estimate": 1000.00,
+  "damage_estimate": 5000.00,
+  "salvage_estimate": 1500.00,
+  "excluded": false,
+  "fee_limit": 2000.00,
+  "incident_location": "Rua ABC, 123",
+  "operation_id": 1,
+  "rate_2": false,
+  "insurer_reference": "REF-12345",
+  "lead_adjuster": "Carlos Silva",
+  "auxiliary_adjuster": "João Pereira",
+  "reserve": 3000.00,
+  "salvage": true,
+  "search": "busca",
+  "insured_name": "Empresa XYZ",
+  "insurer_id": 1,
+  "status": "Aberto",
+  "temporal": false,
+  "billing_type": "Fixed",
+  "fee_limit_value": 2500.00,
+  "physical_inspection": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 11:59:16
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 44f5d7ff-637f-492c-b280-bcb84fabf21b
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 892
+
+
+Body: {
+  "description": "Caso 1",
+  "judicial_action": true,
+  "policy_number": "123456",
+  "reported_to_insurer": true,
+  "case_name": "Incidente 1",
+  "case_number": "C-001",
+  "condition": "On time",
+  "broker": "Corretora XYZ",
+  "entry_date": "2024-09-14",
+  "loss_date": "2024-09-10",
+  "notification_date": "2024-09-12",
+  "fee_estimate": 1000.00,
+  "damage_estimate": 5000.00,
+  "salvage_estimate": 1500.00,
+  "excluded": false,
+  "fee_limit": 2000.00,
+  "incident_location": "Rua ABC, 123",
+  "operation_id": 1,
+  "rate_2": false,
+  "insurer_reference": "REF-12345",
+  "lead_adjuster": "Carlos Silva",
+  "auxiliary_adjuster": "João Pereira",
+  "reserve": 3000.00,
+  "salvage": true,
+  "search": "busca",
+  "insured_name": "Empresa XYZ",
+  "insurer_id": 1,
+  "status": "Aberto",
+  "temporal": false,
+  "billing_type": "Fixed",
+  "fee_limit_value": 2500.00,
+  "physical_inspection": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:06:16
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 7103017a-0f47-4017-bd46-c389951e93c7
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 932
+
+
+Body: {
+  "description": "Atualização completa do caso",
+  "judicial_action": true,
+  "policy_number": "POL-123456",
+  "reported_to_insurer": true,
+  "case_name": "Caso ABC",
+  "case_number": "C-001",
+  "condition": "On time",
+  "broker": "Corretora XYZ",
+  "entry_date": "2024-09-12",
+  "loss_date": "2024-09-10",
+  "notification_date": "2024-09-13",
+  "fee_estimate": 1500.00,
+  "damage_estimate": 5000.00,
+  "salvage_estimate": 1000.00,
+  "excluded": false,
+  "fee_limit": 2500.00,
+  "incident_location": "Rua ABC, 123",
+  "operation_id": 1,
+  "rate_2": true,
+  "insurer_reference": "REF-12345",
+  "lead_adjuster": "Ajustador XYZ",
+  "auxiliary_adjuster": "Ajustador Auxiliar",
+  "reserve": 3000.00,
+  "salvage": true,
+  "search": "Texto de busca",
+  "insured_name": "Segurado XYZ",
+  "insurer_id": 1,
+  "status": "Aberto",
+  "temporal": false,
+  "billing_type": "Fixed",
+  "fee_limit_value": 2500.00,
+  "physical_inspection": true
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:11:39
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 49a93eb5-8f53-4ac0-8dba-de516814d8f3
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 105
+
+
+Body: {
+  "case_id": 1,
+  "name": "Rotina de Teste",
+  "status": "Em andamento",
+  "start_date": "2024-09-15"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:15:38
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6b304892-b2e6-4eab-b6ed-dfa9b815dfe6
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 105
+
+
+Body: {
+  "case_id": 1,
+  "name": "Rotina de Teste",
+  "status": "Em andamento",
+  "start_date": "2024-09-15"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:16:18
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 96db0f36-a755-4f75-88f5-840811d83f7f
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 105
+
+
+Body: {
+  "case_id": 1,
+  "name": "Rotina de Teste",
+  "status": "Em andamento",
+  "start_date": "2024-09-15"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:18:13
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: dfa97fe4-46ec-4857-8d0f-ebb7483cfc82
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 89
+
+
+Body: {
+  "name": "Rotina Atualizada",
+  "status": "Concluída",
+  "start_date": "2024-09-16"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:21:48
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f5c5865c-a597-42ca-9f20-012c554234ed
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 257
+
+
+Body: {
+  "routine_id": 1,
+  "action": "Ação Teste",
+  "name": "Tarefa Teste",
+  "start_date": "2024-09-15",
+  "due_date": "2024-09-20",
+  "document_id": 1,
+  "mandatory": true,
+  "SLA": 5,
+  "responsible": 2,
+  "status": "Pendente",
+  "condition": "No Prazo"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:34:50
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 36abea57-4047-422a-ae13-87a0f6572f9e
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 98
+
+
+Body: {
+    "parameter_id": 1,
+    "value": 1500.00,
+    "type": "Hourly",
+    "billing_type": "Fixed"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:35:16
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: befa9378-3106-4df9-9356-1b9197207f4a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:36:05
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: b588df0e-bade-4557-9f40-cafd180ea42f
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 100
+
+
+Body: {
+    "parameter_id": 2,
+    "value": 2000.00,
+    "type": "Daily",
+    "billing_type": "Variable"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:39:42
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6ab18de4-afbb-4d09-bf98-b1ad82a14e48
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 398
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:39:49
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: ef9a2435-b5a2-4cf4-bbc5-874a49ef7e9b
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 398
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:40:28
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 1ab05287-5175-46a8-b989-ccfe91380c49
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 398
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:40:28
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 1ab05287-5175-46a8-b989-ccfe91380c49
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 398
+Referer: http://127.0.0.1:5000/api/timesheet
+Host: 127.0.0.1:5000
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:42:07
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 92477917-ea48-4ff6-a19d-70651d0ff9a7
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 420
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",  # formato YYYY-MM-DD
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:43:11
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: a75c08a3-7fb6-44fd-a31d-b8ec84203604
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 420
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",  # formato YYYY-MM-DD
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:43:54
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: bef9691b-71c4-49e5-9f9d-ef1b4f8d4385
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 398
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": false,
+    "billed": true,
+    "invoice": "INV-12345",
+    "description": "Descrição da atividade",
+    "activity_date": "2024-09-15",
+    "hours_worked": 4.5,
+    "rate": 200.00,
+    "fee": 900.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:44:42
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 8cc7da83-b41a-4d27-8b9d-8058a5c8679c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 421
+
+
+Body: {
+    "case_id": 1,
+    "billing_type": "Fixed",
+    "activity_type": "Ajuste Atualizado",
+    "lead_adjuster": "John Doe",
+    "approved_by_manager": true,
+    "approved_by_director": true,
+    "billed": false,
+    "invoice": "INV-54321",
+    "description": "Descrição da atividade atualizada",
+    "activity_date": "2024-09-16",
+    "hours_worked": 5.0,
+    "rate": 250.00,
+    "fee": 1250.00,
+    "excluded": false
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:45:20
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 4662a498-887a-47d4-8564-d0024aa44ce1
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:45:33
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 4acf8cd3-c74b-4546-859f-ed6e5fb8d251
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:48:14
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 02bc84cb-a8de-4f87-875a-e1a814f8ee18
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 244
+
+
+Body: {
+    "case_id": 1,
+    "rate_limit": 500.00,
+    "declared_value": 300.00,
+    "expense_type": "Viagem",
+    "expense_date": "2024-09-15",
+    "receipt_link": "https://link.do.recibo.com",
+    "reimbursable": true,
+    "adjuster": "John Doe"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:53:49
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 4bb87d07-07fb-44fe-b42a-60b2b51cca4a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 244
+
+
+Body: {
+    "case_id": 1,
+    "rate_limit": 500.00,
+    "declared_value": 300.00,
+    "expense_type": "Viagem",
+    "expense_date": "2024-09-15",
+    "receipt_link": "https://link.do.recibo.com",
+    "reimbursable": true,
+    "adjuster": "John Doe"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:55:20
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 146ab8ad-314c-4224-b8bd-4f2716c36c59
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-15 12:55:53
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 8e4be210-a3c9-4985-b68b-1ed4c86bf4b6
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
