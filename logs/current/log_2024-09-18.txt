@@ -2431,3 +2431,325 @@ Connection: keep-alive
 
 Body: 
 ==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:41:16
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6c255ca6-83f8-473b-b548-ec34eed47e9d
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:41:31
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: b76042b2-74d1-4a07-ba7e-0424db8bd5b8
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:42:15
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: f765af62-5d34-4da3-9ac0-79d80bd39057
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-04",
+    "end_date": "2024-09-04",
+    "leave_type": "Atestado"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:52:54
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 16da84dd-b148-4bec-ab1a-41fecd232fe6
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 79
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:54:02
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 8d0fecb6-736d-4623-94e0-d175807c0be4
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 103
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "goal_hour": 55000,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:54:23
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: a5f1ebc0-2b3a-43a1-9e80-3f6e94892c73
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 99
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "month": 9,
+    "year": 2024,
+    "goal_hour": 8
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:56:09
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: bf0ba8d7-cddc-48c7-a8e2-99417133636a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 101
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "goal_hour": 8.5,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:56:16
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: d313bf79-8704-4ddb-ab63-4ac0f401ddfc
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 101
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "goal_hour": 8.5,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:57:58
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 38655a45-e74e-4a0b-ac6c-54265182d678
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 101
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "goal_hour": 8.5,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:58:51
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 38139c00-5b3d-45a9-a6dc-745ea8a90591
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 101
+
+
+Body: {
+    "user_id": 3,
+    "goal_value": 55000,
+    "goal_hour": 8.5,
+    "month": 9,
+    "year": 2024
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:59:45
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 305d43b2-bf18-4af2-b12c-e6ae574ae6f6
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-04",
+    "end_date": "2024-09-04",
+    "leave_type": "Atestado"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 07:59:52
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 66791c0d-ed5b-4afc-afb4-30fc5da2e129
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-04",
+    "end_date": "2024-09-04",
+    "leave_type": "Atestado"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 08:02:35
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: c9eaaee4-0b23-430d-ac88-cc193fd13bb2
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-04",
+    "end_date": "2024-09-04",
+    "leave_type": "Atestado"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 08:02:40
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 916bfc19-11aa-4c6c-b4e2-091b4b5c9a8d
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-04",
+    "end_date": "2024-09-04",
+    "leave_type": "Atestado"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 08:06:15
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 4cfd0ca9-2e79-440c-ae1a-028b9b7274a5
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 112
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-09",
+    "end_date": "2024-09-15",
+    "leave_type": "Férias"
+}'
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 08:06:23
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 33db916d-43de-4f93-bedb-663b28e3fed3
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 111
+
+
+Body: {
+    "user_id": 3,
+    "start_date": "2024-09-09",
+    "end_date": "2024-09-15",
+    "leave_type": "Férias"
+}
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 11:09:31
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 1a22d654-f5f8-4451-9410-310f5ffc2967
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================

@@ -1,4 +1,6 @@
 from flask import Flask, send_from_directory, abort, jsonify, request
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate  # Importar o Migrate
 from file_management import list_files
 from config import Config
 from controllers.person_controller import person_bp
@@ -19,7 +21,7 @@ from controllers.system_user_controller import system_user_bp
 from controllers.operations_controller import operations_bp
 from controllers.rate_controller import rate_bp
 from controllers.timesheet_controller import timesheet_bp
-
+from controllers.goals_controller import goals_bp
 
 
 from threading import Thread
@@ -60,6 +62,7 @@ app.register_blueprint(system_user_bp, url_prefix='/api/system_user')
 app.register_blueprint(operations_bp, url_prefix='/api/operations')
 app.register_blueprint(rate_bp, url_prefix='/api/rate')
 app.register_blueprint(timesheet_bp, url_prefix='/api/timesheet')
+app.register_blueprint(goals_bp, url_prefix='/api/goals')
 
 
 

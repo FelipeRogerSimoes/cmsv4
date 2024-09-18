@@ -1,14 +1,16 @@
 from flask import Blueprint, request, jsonify, send_file
-from models import db, Timesheet, SystemUser, Case, Person
-import logging
-from datetime import datetime
+from models import db, Timesheet, SystemUser, Case, Person, UserGoal, UserLeave
+from datetime import datetime, timedelta, date
 from sqlalchemy.orm import aliased
 from sqlalchemy import func
+import calendar
+import logging
 from openpyxl import Workbook
 import os
 
+timesheet_bp = Blueprint('timesheet_bp', __name__)
 
-
+# Função para criar um arquivo Excel
 def create_excel(data, filename, headers):
     wb = Workbook()
     ws = wb.active
@@ -21,15 +23,84 @@ def create_excel(data, filename, headers):
     for entry in data:
         ws.append(list(entry.values()))
 
-    # Atualizar o caminho correto para o diretório de downloads
+    # Caminho correto para salvar no servidor
     filepath = os.path.join('/home/cmsssv3/cmsv4/downloads/current', filename)
     wb.save(filepath)
     return filepath
 
+# Função para calcular dias úteis
+def get_working_days(user_id, year, month):
+    first_day, last_day = calendar.monthrange(year, month)
+    days_in_month = [date(year, month, day) for day in range(1, last_day + 1)]
+
+    weekdays = [d for d in days_in_month if d.weekday() < 5]
 
 
+    leaves = UserLeave.query.filter(
+        UserLeave.user_id == user_id,
+        UserLeave.start_date <= days_in_month[-1],
+        UserLeave.end_date >= days_in_month[0]
+    ).all()
 
-timesheet_bp = Blueprint('timesheet_bp', __name__)
+    for leave in leaves:
+        leave_range = [leave.start_date + timedelta(days=i) for i in range((leave.end_date - leave.start_date).days + 1)]
+        weekdays = [d for d in weekdays if d not in leave_range]
+
+    return weekdays
+
+# Função para obter metas diárias de horas e honorários
+def get_user_daily_goals(user_id, year, month):
+    user_goal = UserGoal.query.filter_by(user_id=user_id, year=year, month=month).first()
+    if not user_goal:
+        return {}
+
+    # Distribuir a meta de horas e de honorários pelos dias úteis do mês
+    working_days = get_working_days(user_id, year, month)
+    daily_hour_goal = user_goal.goal_hour / len(working_days) if working_days else 0
+    daily_fee_goal = user_goal.goal_value / len(working_days) if working_days else 0
+
+    return {day: {'hour_goal': daily_hour_goal, 'fee_goal': daily_fee_goal} for day in working_days}
+
+# Função para obter timesheets agrupados com manager e metas diárias
+def get_grouped_timesheets_with_manager_data():
+    ManagerPerson = aliased(Person)
+
+    # Consulta SQL para juntar Timesheet, SystemUser, Person e Manager
+    results = db.session.query(
+        Person.name.label('lead_adjuster_name'),
+        Timesheet.activity_date,
+        func.sum(Timesheet.hours_worked).label('total_hours'),
+        func.sum(Timesheet.fee).label('total_fee'),
+        ManagerPerson.name.label('manager_name'),
+        SystemUser.id.label('user_id'),
+        func.extract('year', Timesheet.activity_date).label('year'),
+        func.extract('month', Timesheet.activity_date).label('month')
+    ).join(SystemUser, Timesheet.lead_adjuster == SystemUser.id) \
+     .join(Person, SystemUser.person_id == Person.id) \
+     .join(ManagerPerson, SystemUser.manager == ManagerPerson.id, isouter=True) \
+     .filter(Timesheet.excluded == False) \
+     .group_by(Person.name, Timesheet.activity_date, ManagerPerson.name, SystemUser.id) \
+     .order_by(Timesheet.activity_date) \
+     .all()
+
+    # Transformar os resultados em uma lista de dicionários
+    grouped_timesheets = []
+    for result in results:
+        # Obter metas diárias de horas e honorários para o usuário
+        daily_goals = get_user_daily_goals(result.user_id, int(result.year), int(result.month))
+        daily_goal = daily_goals.get(result.activity_date, {'hour_goal': 0, 'fee_goal': 0})
+
+        grouped_timesheets.append({
+            'lead_adjuster_name': result.lead_adjuster_name,
+            'activity_date': result.activity_date.strftime('%Y-%m-%d'),
+            'total_hours': float(result.total_hours),  # Converter para float
+            'total_fee': float(result.total_fee),  # Converter para float
+            'manager_name': result.manager_name,  # Nome do gestor
+            'daily_hour_goal': daily_goal['hour_goal'],  # Meta de horas
+            'daily_fee_goal': daily_goal['fee_goal']  # Meta de honorários
+        })
+
+    return grouped_timesheets
 
 # CREATE (POST) - Criar um novo timesheet
 @timesheet_bp.route('/', methods=['POST'])
@@ -37,7 +108,6 @@ def create_timesheet():
     data = request.get_json()
 
     try:
-        # Converter a string de data para objeto date do Python
         activity_date = datetime.strptime(data.get('activity_date'), '%Y-%m-%d').date()
 
         # Criar um novo objeto Timesheet
@@ -51,7 +121,7 @@ def create_timesheet():
             billed=data.get('billed'),
             invoice=data.get('invoice'),
             description=data.get('description'),
-            activity_date=activity_date,  # Use o objeto de data convertido
+            activity_date=activity_date,
             hours_worked=data.get('hours_worked'),
             rate=data.get('rate'),
             fee=data.get('fee'),
@@ -73,7 +143,6 @@ def create_timesheet():
 # READ (GET) - Obter todos os timesheets
 @timesheet_bp.route('/', methods=['GET'])
 def get_all_timesheets():
-    # Realiza o join com as tabelas Case, SystemUser e Person para obter os nomes e os dados do caso
     timesheets = db.session.query(
         Timesheet,
         Case.case_number,
@@ -84,53 +153,20 @@ def get_all_timesheets():
      .join(Person, SystemUser.person_id == Person.id) \
      .all()
 
-    # Criar uma lista de dicionários contendo os timesheets e os dados adicionais
     timesheets_list = []
     for timesheet, case_number, temporal, lead_adjuster_name in timesheets:
         timesheet_dict = timesheet.to_dict()
-        timesheet_dict['case_number'] = case_number  # Adiciona o case_number
-        timesheet_dict['temporal'] = temporal  # Adiciona o temporal do caso
-        timesheet_dict['lead_adjuster_name'] = lead_adjuster_name  # Adiciona o nome do regulador
-        del timesheet_dict['lead_adjuster']  # Remove o ID do lead_adjuster
-        del timesheet_dict['case_id']  # Remove o ID do case_id
+        timesheet_dict['case_number'] = case_number
+        timesheet_dict['temporal'] = temporal
+        timesheet_dict['lead_adjuster_name'] = lead_adjuster_name
+        del timesheet_dict['lead_adjuster']
+        del timesheet_dict['case_id']
 
         timesheets_list.append(timesheet_dict)
 
     return jsonify(timesheets_list), 200
 
-# Função para obter timesheets agrupados com manager
-def get_grouped_timesheets_with_manager_data():
-    ManagerPerson = aliased(Person)
-
-    # Consulta SQL para juntar Timesheet, SystemUser, Person e Manager
-    results = db.session.query(
-        Person.name.label('lead_adjuster_name'),
-        Timesheet.activity_date,
-        func.sum(Timesheet.hours_worked).label('total_hours'),
-        func.sum(Timesheet.fee).label('total_fee'),
-        ManagerPerson.name.label('manager_name')
-    ).join(SystemUser, Timesheet.lead_adjuster == SystemUser.id) \
-     .join(Person, SystemUser.person_id == Person.id) \
-     .join(ManagerPerson, SystemUser.manager == ManagerPerson.id, isouter=True) \
-     .filter(Timesheet.excluded == False) \
-     .group_by(Person.name, Timesheet.activity_date, ManagerPerson.name) \
-     .order_by(Timesheet.activity_date) \
-     .all()
-
-    # Transformar os resultados em uma lista de dicionários
-    grouped_timesheets = []
-    for result in results:
-        grouped_timesheets.append({
-            'lead_adjuster_name': result.lead_adjuster_name,
-            'activity_date': result.activity_date.strftime('%Y-%m-%d'),
-            'total_hours': float(result.total_hours),  # Converter para float
-            'total_fee': float(result.total_fee),  # Converter para float
-            'manager_name': result.manager_name  # Adiciona o nome do manager
-        })
-
-    return grouped_timesheets
-
-# Endpoint para obter timesheets agrupados com manager
+# Endpoint para obter timesheets agrupados com metas diárias e manager
 @timesheet_bp.route('/grouped_with_manager', methods=['GET'])
 def get_grouped_timesheets_with_manager():
     grouped_data = get_grouped_timesheets_with_manager_data()
@@ -140,22 +176,14 @@ def get_grouped_timesheets_with_manager():
 @timesheet_bp.route('/export_grouped_daily', methods=['GET'])
 def export_grouped_timesheets_daily():
     results = get_grouped_timesheets_with_manager_data()
-
-    # Criar o arquivo Excel
-    filepath = create_excel(results, 'grouped_daily_timesheets.xlsx', ['Lead Adjuster', 'Activity Date', 'Total Hours', 'Total Fee', 'Manager'])
-
-    # Enviar o arquivo para download
+    filepath = create_excel(results, 'grouped_daily_timesheets.xlsx', ['Lead Adjuster', 'Activity Date', 'Total Hours', 'Total Fee', 'Manager', 'Daily Hour Goal', 'Daily Fee Goal'])
     return send_file(filepath, as_attachment=True)
 
 # Endpoint para gerar e baixar arquivo Excel de dados agrupados por regulador e gestor
 @timesheet_bp.route('/export_grouped_regulator_manager', methods=['GET'])
 def export_grouped_timesheets_regulator_manager():
     results = get_grouped_timesheets_with_manager_data()
-
-    # Criar o arquivo Excel
-    filepath = create_excel(results, 'grouped_regulator_manager_timesheets.xlsx', ['Lead Adjuster', 'Activity Date', 'Total Hours', 'Total Fee', 'Manager'])
-
-    # Enviar o arquivo para download
+    filepath = create_excel(results, 'grouped_regulator_manager_timesheets.xlsx', ['Lead Adjuster', 'Activity Date', 'Total Hours', 'Total Fee', 'Manager', 'Daily Hour Goal', 'Daily Fee Goal'])
     return send_file(filepath, as_attachment=True)
 
 # READ (GET) - Obter um timesheet específico pelo ID
@@ -171,11 +199,9 @@ def update_timesheet(id):
     data = request.get_json()
 
     try:
-        # Converter a string de data para objeto date do Python
         if 'activity_date' in data:
             timesheet.activity_date = datetime.strptime(data.get('activity_date'), '%Y-%m-%d').date()
 
-        # Atualizar apenas os campos que foram enviados
         timesheet.case_id = data.get('case_id', timesheet.case_id)
         timesheet.billing_type = data.get('billing_type', timesheet.billing_type)
         timesheet.activity_type = data.get('activity_type', timesheet.activity_type)
@@ -190,7 +216,6 @@ def update_timesheet(id):
         timesheet.fee = data.get('fee', timesheet.fee)
         timesheet.excluded = data.get('excluded', timesheet.excluded)
 
-        # Commit para salvar as mudanças no banco de dados
         db.session.commit()
 
         return jsonify(timesheet.to_dict()), 200

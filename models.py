@@ -410,3 +410,34 @@ class Rate(db.Model):
             'billing_type': self.billing_type
         }
 
+# Tabela de metas de usuário
+class UserGoal(db.Model):
+    __tablename__ = 'user_goals'
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('system_user.id'), nullable=False)
+    goal_value = db.Column(db.Numeric(10, 2), nullable=False)  # Meta mensal total
+    month = db.Column(db.Integer, nullable=False)  # Mês (1 a 12)
+    year = db.Column(db.Integer, nullable=False)  # Ano da meta
+    goal_hour = db.Column(db.Integer, nullable=False)  #Meta em horas
+    user = db.relationship('SystemUser', backref='goals')
+
+# Tabela de feriados
+class Holiday(db.Model):
+    __tablename__ = 'holidays'
+
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.Date, nullable=False, unique=True)  # Data do feriado
+    name = db.Column(db.String(255), nullable=True)  # Nome do feriado
+
+# Tabela de atestados/férias
+class UserLeave(db.Model):
+    __tablename__ = 'user_leaves'
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('system_user.id'), nullable=False)
+    start_date = db.Column(db.Date, nullable=False)  # Data de início
+    end_date = db.Column(db.Date, nullable=False)  # Data de término
+    leave_type = db.Column(db.String(50), nullable=False)  # Tipo de ausência ('Férias', 'Atestado')
+
+    user = db.relationship('SystemUser', backref='leaves')
