@@ -21,6 +21,7 @@ from controllers.rate_controller import rate_bp
 from controllers.timesheet_controller import timesheet_bp
 
 
+
 from threading import Thread
 import time
 import schedule
@@ -57,6 +58,8 @@ app.register_blueprint(system_user_bp, url_prefix='/api/system_user')
 app.register_blueprint(operations_bp, url_prefix='/api/operations')
 app.register_blueprint(rate_bp, url_prefix='/api/rate')
 app.register_blueprint(timesheet_bp, url_prefix='/api/timesheet')
+
+
 
 # Middleware para interceptar requisições e registrar logs
 @app.before_request

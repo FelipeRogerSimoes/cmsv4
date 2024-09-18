@@ -1,0 +1,241 @@
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:02:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: deafc3a4-9d90-43f3-8777-4a60f646605a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:05:44
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: dfdba4f3-d8ee-4e50-8bd4-8abec152e831
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:05:47
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 3e6e789f-d925-4fa6-ab49-bdfc6698e6da
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:06:07
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: ff8be798-db09-4673-ab0b-d5718d53a61c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:07:06
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: bb91d319-45f0-4a1d-9b93-1bc9234c5f45
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:07:08
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 1710a06b-7461-458f-89b7-a5af71a02b9c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:20:31
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 6559639e-3c26-4781-80fb-fa8e36438627
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:20:50
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 665d8bac-0365-48d0-bd3a-e2295089d434
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:40:50
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 43683c86-1492-4a93-9726-1b9218411bb3
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:40:59
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 57b7097b-3f44-4025-8cdb-336b3136e11c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:41:25
+Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 40a11587-737d-43d9-b6fe-4c1e86ab3803
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:48:24
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: cebf6814-e8b7-4fd3-9ea3-a3a955414261
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:48:27
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: e4590238-4590-4184-ba6b-df107f9741f8
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:49:46
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: c72b67c2-86ce-47ae-9e88-15b90fd39326
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:53:25
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 3d1569b4-b636-43f3-a492-58672df23b89
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:56:24
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 14fc16fd-a832-47b7-b8a2-19d691628115
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:56:27
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 60ce70ff-48a6-4ceb-abb8-6a3f62d407d1
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:56:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: 62f406ce-b8b5-4627-904d-bdca29d1b4f0
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:56:32
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: dd0736e2-8c19-410d-8625-91824e17a398
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
+Request ID: unknown
+Hora (Brasília): 2024-09-18 00:57:30
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: a92f0684-fd26-4194-be64-791fb87b6bfb
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+Body: 
+==================================================
