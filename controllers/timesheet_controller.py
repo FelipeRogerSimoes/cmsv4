@@ -21,8 +21,8 @@ def create_excel(data, filename, headers):
     for entry in data:
         ws.append(list(entry.values()))
 
-    # Salvar o arquivo
-    filepath = os.path.join('downloads', filename)
+    # Atualizar o caminho correto para o diretório de downloads
+    filepath = os.path.join('/home/cmsssv3/cmsv4/downloads/current', filename)
     wb.save(filepath)
     return filepath
 

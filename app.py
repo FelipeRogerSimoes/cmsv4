@@ -28,8 +28,10 @@ import schedule
 from utils.request_logger import log_request, move_old_log  # Serviço de logging
 from email_service import process_email_attachments, check_invoices_email  # Serviço de e-mails
 from models import db  # Certifique-se de importar sua instância de SQLAlchemy
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 app.config.from_object(Config)
 
 # Inicializar a instância do SQLAlchemy
