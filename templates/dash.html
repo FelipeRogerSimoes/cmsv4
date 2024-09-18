@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        canvas {
+            display: block;
+            width: 100% !important;
+            height: 350px !important;
+        }
+    </style>
+    <title>Timesheet Dashboard</title>
+</head>
+<body>
+
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <canvas id="timesheetChart"></canvas>
+</div>
+<div id="error-message" style="text-align: center; color: red; display: none;">
+    Erro ao carregar os dados.
+</div>
+
+<script>
+    // Função para buscar dados do timesheet
+    async function fetchTimesheetData() {
+        try {
+            const response = await fetch('https://cmsssv3.pythonanywhere.com/api/timesheet/grouped_with_manager');
+            if (!response.ok) {
+                throw new Error(`Erro HTTP! Status: ${response.status} - ${response.statusText}`);
+            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Erro ao buscar os dados:', error);
+            document.getElementById('error-message').style.display = 'block';
+            document.getElementById('error-message').innerText = `Erro ao carregar os dados: ${error.message}`;
+            return [];
+        }
+    }
+
+    // Função para renderizar o gráfico
+    async function renderChart() {
+        const timesheetData = await fetchTimesheetData();
+
+        if (timesheetData.length === 0) {
+            return; // Evita renderizar o gráfico se não houver dados
+        }
+
+        // Filtrar apenas os dados do regulador "Caroline Veroneze"
+        const filteredData = timesheetData.filter(item => item.lead_adjuster_name === "Caroline Veroneze");
+
+        if (filteredData.length === 0) {
+            document.getElementById('error-message').style.display = 'block';
+            document.getElementById('error-message').innerText = "Nenhum dado encontrado para 'Caroline Veroneze'.";
+            return;
+        }
+
+        // Processar os dados filtrados
+        const labels = filteredData.map(item => `${item.activity_date} - ${item.lead_adjuster_name}`);
+        const totalFees = filteredData.map(item => item.total_fee);
+
+        // Configurar e renderizar o gráfico
+        const ctx = document.getElementById('timesheetChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Total de Fees',
+                    data: totalFees,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                }
+            }
+        });
+    }
+
+    // Chamar a função para renderizar o gráfico
+    renderChart();
+</script>
+
+</body>
+</html>

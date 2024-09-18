@@ -240,6 +240,7 @@ Connection: keep-alive
 Body: 
 ==================================================
 Request ID: unknown
+<<<<<<< HEAD
 Hora (Brasília): 2024-09-18 01:29:18
 Headers: X-Real-Ip: 177.126.10.244
 X-Forwarded-For: 177.126.10.244
@@ -2417,6 +2418,15 @@ Accept-Encoding: gzip, deflate
 Traceparent: 00-6beb4a6ecf4f2bff6db06d92dc78cafd-c9f724c4cee7d54b-01
 Baggage: bubblegroup.client.version=d5e29f7a8d490d151bd99ee790de0a4d872c8526,bubblegroup.client.commit_timestamp=1726603617000,bubblegroup.http.route=apiservice%2Fdoapicallfromserver,bubblegroup.http.host=claimstrackcmsv3.bubbleapps.io
 Referer: https://cmsssv3.pythonanywhere.com/api/person
+=======
+Hora (Brasília): 2024-09-18 01:39:28
+Headers: User-Agent: PostmanRuntime/7.42.0
+Accept: */*
+Postman-Token: b2b250dc-3ad5-4763-8b3d-09ea69ed05cb
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+>>>>>>> 789d050 (Inclusão do dash)
 
 
 Body: 
